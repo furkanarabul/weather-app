@@ -4,6 +4,7 @@ let searchButton = document.querySelector('#city-search')
 let cityname = document.querySelector('.city-name');
 let degree = document.querySelector('.degree')
 let icon = document.querySelector('.icon')
+let desc = document.querySelector('.desc')
 searchButton.addEventListener('click',(e)=>{
     e.preventDefault();
     city = (getCity.value);
@@ -13,9 +14,8 @@ searchButton.addEventListener('click',(e)=>{
     cityname.innerText = (city.location.name)
     let weathericon = city.current.condition.icon
     icon.innerHTML = `<img src="http:${weathericon}">`
+    desc.innerHTML  = city.current.condition.text
     degree.innerText = (city.current.temp_c)
-    console.log(city.current.condition.icon);
-    console.log(city.current.condition.text);
     //partly cloudy
 })
 })
