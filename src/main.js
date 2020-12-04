@@ -9,7 +9,7 @@ const desc = document.querySelector('.desc')
 searchButton.addEventListener('click',(e)=>{
     e.preventDefault();
     city = (getCity.value);
-    fetch(`http://api.weatherapi.com/v1/current.json?key=76b3523dbdd942d6ac7232959200112&q=${city}`).then(response => {
+    fetch(`https://api.weatherapi.com/v1/current.json?key=76b3523dbdd942d6ac7232959200112&q=${city}`).then(response => {
     return response.json();
     }).then(city =>{
     cityname.innerText = (city.location.name)
