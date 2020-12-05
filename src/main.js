@@ -1,10 +1,11 @@
 
-let getCity = document.querySelector('#city')
-let searchButton = document.querySelector('#city-search')
-let cityname = document.querySelector('.city-name');
-let degree = document.querySelector('.degree')
-let icon = document.querySelector('.icon')
-let desc = document.querySelector('.desc')
+const getCity = document.querySelector('#city')
+const searchButton = document.querySelector('#city-search')
+const matchList = document.querySelector('#match-list')
+const cityname = document.querySelector('.city-name');
+const degree = document.querySelector('.degree')
+const icon = document.querySelector('.icon')
+const desc = document.querySelector('.desc')
 searchButton.addEventListener('click',(e)=>{
     e.preventDefault();
     city = (getCity.value);
