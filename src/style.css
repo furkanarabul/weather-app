@@ -5,7 +5,6 @@
 }
 
 body {
-<<<<<<< HEAD
   background: linear-gradient(
     217deg,
     rgba(98, 190, 235),
@@ -55,43 +54,4 @@ label {
 }
 .city-name {
   font-size: 3rem;
-=======
-    background:linear-gradient(217deg, rgba(98,190,235), rgba(98,168,238) 70.71%);
-    font-family: "Abel", sans-serif!important;
-    min-height: 100vh;
-    transition: all 0.5s ease;
-    display:flex;
-    justify-content:center;
-    flex-direction:column;
-    align-items:center;
-}
-.container{
-    display:flex;
-    height:20vh;
-    justify-content:space-around;
-    align-items:center;
-    width:50%;
-}
-.row{
-    background:white!important;
-    padding:2rem;
-    background:transparent;
-    border:1px solid rgb(241, 241, 241);
-    margin:2rem;
-    border-radius:10px;
-    max-width: 60%;
-}
-.row:hover{
-    box-shadow: 0px 8px 20px rgba(34, 79, 131, 0.1);
-}
-label{
-    font-size:1rem;
-    color:rgb(85, 85, 85);
-}
-.degree{
-    font-size:3rem;
-}
-.city-name{
-    font-size:3rem;
->>>>>>> b354c9945e56e7fe9ea9514563faf84a354e0bb8
 }
