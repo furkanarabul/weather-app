@@ -17,12 +17,7 @@ searchButton.addEventListener('click',(e)=>{
     icon.innerHTML = `<img src="http:${weathericon}">`
     desc.innerHTML  = city.current.condition.text
     degree.innerText = (city.current.temp_c)
-    //partly cloudy
 })
 })
-//async function fetchCity () {
-//    const response = await fetch(`http://api.weatherapi.com/v1/current.json?key=76b3523dbdd942d6ac7232959200112&q=${city}`)
-//    const posts = await response.json()
-//}
-//fetchCity();
+
 
