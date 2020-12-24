@@ -49,9 +49,24 @@ label {
   font-size: 1rem;
   color: rgb(85, 85, 85);
 }
+a{
+  text-decoration: none;
+  color: inherit!important;
+  opacity: 0.5;
+}
+a:hover{
+  opacity: 1;
+  color: white!important;
+  transition: all 0.5s ease;
+}
 .degree {
   font-size: 3rem;
 }
 .city-name {
   font-size: 3rem;
+}
+.github{
+  position: fixed;
+  bottom: 15px;
+  left: 15px;
 }
